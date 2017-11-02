@@ -24,16 +24,18 @@ function setParams (params) {
 }
 
 function handleURL(url) {
-	console.log('handleURL >>', config);
-	// return url;
-	return `http://localhost:1337/${url}`;
+	return `${config.service}/${url}`;
 }
 
 const fetchApi = (url = '', params = {}) => {
   return fetch(handleURL(url), setParams(params))
-  .then((response) => {
-  	return response.json()
+  .then((response) => response.json())
+  .then((responseJson) => {
+    return responseJson;
   })
+  .catch((error) => {
+    throw error;
+  });
 }
 
 export default fetchApi;
