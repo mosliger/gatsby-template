@@ -3,10 +3,11 @@ import PropTypes from 'prop-types'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import * as Todo from '../actions/todo'
+import Link from "gatsby-link"
+
 
 // State
 function mapStateToProps(state) {
-  console.log('mapStateToProps >>', state)
   return {
     todo: state.todo,
   }
@@ -51,7 +52,7 @@ export default class Home extends React.Component {
   render() {
     const { todo } = this.props;
     return (
-      <div className='_center'>
+      <div className='container'>
         <br />
         <h1>Hello, I am React</h1>
         <button onClick={() => this.handleAddTodo()}>addTodo</button>

@@ -6,56 +6,33 @@ import Helmet from 'react-helmet'
 import { Provider } from 'react-redux'
 import configureStore from '../store/configStore'
 
-
 import './index.css'
 
 const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Gatsby
-        </Link>
+  <nav className='main-header'>
+    <div className='logo'>
+      <h1>
+        <Link to='/'>Gatsby</Link>
       </h1>
     </div>
-  </div>
+    <ul>
+      <li><Link to='/'>Home</Link></li>
+      <li><Link to='/page-2'>Page 2</Link></li>
+    </ul>
+  </nav>
 )
 
 const App = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title='Gatsby Default Starter'
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
     <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
+    <div className='wrap'>
       {children()}
     </div>
   </div>
