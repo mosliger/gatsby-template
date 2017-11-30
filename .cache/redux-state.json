@@ -1,25 +1,38 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "C:/xampp/htdocs/gatsby-site/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "updatedAt": 1512026594384,
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "C:/xampp/htdocs/gatsby-site/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "ae4c2ff609053f1ddd2c0d87b905046c",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-page-creator": {
-      "resolve": "C:/xampp/htdocs/gatsby/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "resolve": "C:/xampp/htdocs/gatsby-site/node_modules/gatsby/dist/internal-plugins/component-page-creator",
       "id": "Plugin component-page-creator",
       "name": "component-page-creator",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "C:/xampp/htdocs/gatsby/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "pluginFilepath": "C:/xampp/htdocs/gatsby-site/node_modules/gatsby/dist/internal-plugins/component-page-creator",
       "packageJson": {
         "name": "component-page-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
@@ -40,20 +53,23 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6e022f6c990aeb176f51b1ab11356acc",
+        "contentDigest": "92f4280363e052864eccf2b39548e0ce",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-layout-creator": {
-      "resolve": "C:/xampp/htdocs/gatsby/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "resolve": "C:/xampp/htdocs/gatsby-site/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "id": "Plugin component-layout-creator",
       "name": "component-layout-creator",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "C:/xampp/htdocs/gatsby/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "pluginFilepath": "C:/xampp/htdocs/gatsby-site/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "packageJson": {
         "name": "component-layout-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
@@ -74,20 +90,24 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7613c64fc8aeb9172dbdd1d8e582ef27",
+        "contentDigest": "36bdf1cea8a04a08bbbe0b4b01420ff3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "C:/xampp/htdocs/gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "C:/xampp/htdocs/gatsby-site/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "C:/xampp/htdocs/gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "pluginFilepath": "C:/xampp/htdocs/gatsby-site/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -104,20 +124,23 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ccc3956933efd75dd7b92ca17e43bd96",
+        "contentDigest": "88f610c38fda26ce5e274c8d8e3e4615",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "C:/xampp/htdocs/gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "C:/xampp/htdocs/gatsby-site/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "C:/xampp/htdocs/gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "pluginFilepath": "C:/xampp/htdocs/gatsby-site/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -134,20 +157,23 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9f5cfd3fcc3d1f98cd4b98e2b2ba22dd",
+        "contentDigest": "a27926efcedb7f12fbeb3c0fbd7a832e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "C:/xampp/htdocs/gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "C:/xampp/htdocs/gatsby-site/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "C:/xampp/htdocs/gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "pluginFilepath": "C:/xampp/htdocs/gatsby-site/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -164,20 +190,24 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9f1e00df90a3c267a95fd6467e88ddf8",
+        "contentDigest": "c67cdff674c5b247982c10cc790c5a17",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "C:/xampp/htdocs/gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "C:/xampp/htdocs/gatsby-site/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "C:/xampp/htdocs/gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "pluginFilepath": "C:/xampp/htdocs/gatsby-site/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -194,20 +224,21 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "23101b918127ce8fbd2ba51cea28291f",
+        "contentDigest": "4f05931d9d8ecbb9dbf92044ce9ef46a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "C:/xampp/htdocs/gatsby/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "C:/xampp/htdocs/gatsby-site/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
       "version": "1.0.8",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "C:/xampp/htdocs/gatsby/node_modules/gatsby-plugin-react-helmet",
+      "nodeAPIs": [],
+      "pluginFilepath": "C:/xampp/htdocs/gatsby-site/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Stub description for gatsby-plugin-react-helmet",
@@ -216,9 +247,7 @@
         "keywords": [
           "gatsby"
         ],
-        "author": {
-          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
-        },
+        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
         "license": "MIT",
         "dependencies": [
           {
@@ -247,20 +276,94 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2fe98369d31352c450cd8089c4af2562",
+        "contentDigest": "12e717e26cee8fd2cf8e986256ac4454",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "C:/xampp/htdocs/gatsby-site/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.14",
+      "pluginOptions": {
+        "plugins": [],
+        "precision": 8
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "pluginFilepath": "C:/xampp/htdocs/gatsby-site/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "sass",
+          "scss"
+        ],
+        "author": "Daniel Farrell <daniel@mobelux.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.7"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1b9a6d1c1780a850ad35d6fad81d38b0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "C:/xampp/htdocs/gatsby",
+      "resolve": "C:/xampp/htdocs/gatsby-site",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "8404ab04284227cde3d1aad4d9ca29a7",
+      "version": "545bda652601be20b8ab8e1397dc9a86",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "C:/xampp/htdocs/gatsby",
+      "nodeAPIs": [],
+      "pluginFilepath": "C:/xampp/htdocs/gatsby-site",
       "packageJson": {
         "name": "gatsby-starter-default",
         "description": "Gatsby default starter",
@@ -274,27 +377,27 @@
         "dependencies": [
           {
             "name": "gatsby",
-            "version": "^1.9.73"
+            "version": "^1.9.119"
           },
           {
             "name": "gatsby-link",
-            "version": "^1.6.24"
+            "version": "^1.6.28"
           },
           {
             "name": "gatsby-plugin-react-helmet",
             "version": "^1.0.8"
           },
           {
-            "name": "next-redux-wrapper",
-            "version": "^1.3.4"
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.14"
           },
           {
             "name": "react",
-            "version": "^16.0.0"
+            "version": "^16.2.0"
           },
           {
             "name": "react-dom",
-            "version": "^16.0.0"
+            "version": "^16.2.0"
           },
           {
             "name": "react-redux",
@@ -347,16 +450,12 @@
             "version": "^6.24.1"
           },
           {
-            "name": "babel-preset-react-hmre",
-            "version": "^1.1.1"
-          },
-          {
             "name": "babel-preset-stage-0",
             "version": "^6.24.1"
           },
           {
             "name": "prettier",
-            "version": "^1.7.4"
+            "version": "^1.8.2"
           }
         ],
         "peerDependencies": [],
@@ -366,7 +465,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e3556158f9069a14425d329971cdc5f9",
+        "contentDigest": "703e0d439177da903a9fa05f76e35d14",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -375,106 +474,108 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-11-15T07:11:43.396Z",
+      "buildTime": "2017-11-30T07:23:11.588Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "158113699e144e0175c1125295b9fac5",
+        "contentDigest": "885aa051215e0bf862bfbb7ad994f305",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /404/": {
-      "path": "/404/",
-      "component": "C:/xampp/htdocs/gatsby/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
       "layout": "index",
       "jsonName": "404.json",
       "internalComponentName": "Component404",
-      "updatedAt": 1510729905908,
+      "path": "/404/",
+      "component": "C:/xampp/htdocs/gatsby-site/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
       "context": {},
+      "updatedAt": 1512026594398,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/xampp/htdocs/gatsby/src/pages/404.js",
+      "componentPath": "C:/xampp/htdocs/gatsby-site/src/pages/404.js",
       "id": "SitePage /404/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5ded1a745bf7235801d7e30ee713ad3f",
+        "contentDigest": "e8b53039ba9862230d05e1fb95548d13",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /": {
-      "path": "/",
-      "component": "C:/xampp/htdocs/gatsby/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1510729905909,
+      "path": "/",
+      "component": "C:/xampp/htdocs/gatsby-site/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
       "context": {},
+      "updatedAt": 1512026594400,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/xampp/htdocs/gatsby/src/pages/index.js",
+      "componentPath": "C:/xampp/htdocs/gatsby-site/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b72d22d3eb720da553766c0155c63993",
+        "contentDigest": "591e40b2de533bf65577f7eb82a2cf94",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /page-2/": {
-      "path": "/page-2/",
-      "component": "C:/xampp/htdocs/gatsby/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
       "layout": "index",
       "jsonName": "page-2.json",
       "internalComponentName": "ComponentPage2",
-      "updatedAt": 1510729905911,
+      "path": "/page-2/",
+      "component": "C:/xampp/htdocs/gatsby-site/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
       "context": {},
+      "updatedAt": 1512026594401,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/xampp/htdocs/gatsby/src/pages/page-2.js",
+      "componentPath": "C:/xampp/htdocs/gatsby-site/src/pages/page-2.js",
       "id": "SitePage /page-2/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ecf747e9eb3b8c6b9aadb78df36a98f2",
+        "contentDigest": "5239c96b9d24b61eeb7c67b250436edd",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /404.html": {
-      "path": "/404.html",
-      "component": "C:/xampp/htdocs/gatsby/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
       "layout": "index",
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
-      "updatedAt": 1510729905913,
+      "path": "/404.html",
+      "component": "C:/xampp/htdocs/gatsby-site/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
       "context": {},
+      "updatedAt": 1512026594403,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "C:/xampp/htdocs/gatsby/src/pages/404.js",
+      "componentPath": "C:/xampp/htdocs/gatsby-site/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d850112b6f420736f65f08c969cdaab8",
+        "contentDigest": "d5e029d69c2fc604734e599632406489",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "05bffbe9e33cf472e39ee06c7297bb76"
+    "PLUGINS_HASH": "0c6e4c2cee9107388a394c8b6257b3c0"
   },
   "componentDataDependencies": {
     "nodes": {},

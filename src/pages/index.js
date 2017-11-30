@@ -16,8 +16,6 @@ function mapStateToProps(state) {
 // Action
 const actions = {
   addTodo: Todo.addTodo,
-  testApi: Todo.testApi,
-  removeTodo: Todo.removeTodo,
 }
 function mapDispatchToProps(dispatch) {
   return { actions: bindActionCreators(actions, dispatch) }
@@ -44,28 +42,13 @@ export default class Home extends React.Component {
     });
   }
 
-  handleTextApi = () => {
-    const { actions } = this.props;
-    actions.testApi();
-  }
-
   render() {
     const { todo } = this.props;
     return (
       <div className='container'>
-        <br />
-        <h1>Hello, I am React</h1>
-        <button onClick={() => this.handleAddTodo()}>addTodo</button>
-        <button onClick={() => this.handleTextApi()}>Text Api</button>
-        <ul>
-        {
-          todo.map((obj, index) => {
-            return (
-              <li key={index}>{obj.text}</li>
-            )
-          })
-        }
-        </ul>
+        <h1>Hello word</h1>
+        <button onClick={() => this.handleAddTodo()} className="button">addTodo</button>
+        <Link to="/page-2/" className="button">Page 2</Link>
       </div>
     )
   }

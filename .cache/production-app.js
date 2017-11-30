@@ -6,8 +6,8 @@ import React, { createElement } from "react"
 import ReactDOM from "react-dom"
 import { Router, Route, withRouter, matchPath } from "react-router-dom"
 import { ScrollContext } from "gatsby-react-router-scroll"
-import createHistory from "history/createBrowserHistory"
 import domReady from "domready"
+import history from "./history"
 import emitter from "./emitter"
 window.___emitter = emitter
 import pages from "./pages.json"
@@ -20,8 +20,6 @@ loader.addProdRequires(asyncRequires)
 window.asyncRequires = asyncRequires
 window.___loader = loader
 window.matchPath = matchPath
-
-const history = createHistory()
 
 // Convert to a map for faster lookup in maybeRedirect()
 const redirectMap = redirects.reduce((map, redirect) => {
@@ -163,7 +161,8 @@ apiRunnerAsync(`onClientEntry`).then(() => {
                     })
                   } else {
                     return createElement(ComponentRenderer, {
-                      location: { page: true, pathname: `/404.html` },
+                      page: true,
+                      location: { pathname: `/404.html` },
                     })
                   }
                 },
