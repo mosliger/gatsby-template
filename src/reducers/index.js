@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
-import todo from './todo'
+import language from './language'
 
 export default combineReducers({
-  todo
+  language
 })

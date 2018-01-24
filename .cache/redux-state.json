@@ -8,7 +8,7 @@
       "component": "C:/xampp/htdocs/gatsby/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1516778990190,
+      "updatedAt": 1516783142701,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "C:/xampp/htdocs/gatsby/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a1d2bfad20a6805fe4e3cb15b3914cc5",
+        "contentDigest": "5e522a3135169fdb85d3bd55141f0b59",
         "owner": "internal-data-bridge"
       }
     },
@@ -425,6 +425,42 @@
             "version": "^6.26.0"
           },
           {
+            "name": "eslint",
+            "version": "^4.7.2"
+          },
+          {
+            "name": "babel-eslint",
+            "version": "^8.1.1"
+          },
+          {
+            "name": "eslint-config-standard",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "eslint-config-standard-react",
+            "version": "^4.3.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "eslint-plugin-node",
+            "version": "^4.2.2"
+          },
+          {
+            "name": "eslint-plugin-promise",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^6.10.3"
+          },
+          {
+            "name": "eslint-plugin-standard",
+            "version": "^3.0.1"
+          },
+          {
             "name": "babel-plugin-transform-decorators-legacy",
             "version": "^1.3.4"
           },
@@ -477,12 +513,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-01-24T07:29:45.780Z",
+      "buildTime": "2018-01-24T08:38:57.020Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ec6b48a7460d63bb3a915bd4ca57f127",
+        "contentDigest": "9bcabd860cc00c449e6715a7c4a2b05f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -495,7 +531,7 @@
       "component": "C:/xampp/htdocs/gatsby/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1516778990201,
+      "updatedAt": 1516783142716,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/xampp/htdocs/gatsby/src/pages/404.js",
@@ -504,28 +540,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "02a13cdc5a283ffc35f6a4a69a9c27ab",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /page-2/": {
-      "layout": "index",
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "C:/xampp/htdocs/gatsby/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {},
-      "updatedAt": 1516778990202,
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/xampp/htdocs/gatsby/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "b5f8fb56759853c7247017296a17f0be",
+        "contentDigest": "ae99d0a8ef875ed6462945924748b727",
         "owner": "internal-data-bridge"
       }
     },
@@ -537,7 +552,7 @@
       "component": "C:/xampp/htdocs/gatsby/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1516778990203,
+      "updatedAt": 1516783142717,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/xampp/htdocs/gatsby/src/pages/index.js",
@@ -546,7 +561,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "90db6477357ee41f17e36a851e7c9795",
+        "contentDigest": "b274b57a9de635089553c96eedf2873f",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "layout": "index",
+      "jsonName": "page-2.json",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "C:/xampp/htdocs/gatsby/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "context": {},
+      "updatedAt": 1516783142718,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/xampp/htdocs/gatsby/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "feb3ce64168410fe3bdf5ef53828422d",
         "owner": "internal-data-bridge"
       }
     },
@@ -558,7 +594,7 @@
       "component": "C:/xampp/htdocs/gatsby/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1516778990206,
+      "updatedAt": 1516783142721,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "C:/xampp/htdocs/gatsby/src/pages/404.js",
@@ -567,14 +603,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "947d24f1f7380a0ca1296d3d4a05b820",
+        "contentDigest": "4d4baea2a7a9fc36766869306d0f765b",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "7500ff445c4d1df830bb357be77cf3c8"
+    "PLUGINS_HASH": "b73584d7fd878a5ad1ea464136e14750"
   },
   "componentDataDependencies": {
     "nodes": {},

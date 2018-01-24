@@ -1,54 +1,20 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { bindActionCreators } from 'redux'
-import { connect } from 'react-redux'
-import * as Todo from '../actions/todo'
-import Link from "gatsby-link"
 
+import { multiLanguage } from '../tool'
 
-// State
-function mapStateToProps(state) {
-  return {
-    todo: state.todo,
-  }
-}
-
-// Action
-const actions = {
-  addTodo: Todo.addTodo,
-}
-function mapDispatchToProps(dispatch) {
-  return { actions: bindActionCreators(actions, dispatch) }
-}
-
-@connect(mapStateToProps, mapDispatchToProps)
+@multiLanguage()
 export default class Home extends React.Component {
   static propTypes = {
-    todo: PropTypes.array,
-    actions: PropTypes.shape({
-      addTodo: PropTypes.func.isRequired,
-      testApi: PropTypes.func,
-    }),
-  };
-
-  handleAddTodo = () => {
-    const { actions } = this.props;
-    actions.addTodo({
-      "id": 1,
-      "text": "woem",
-      "active": 0,
-      "created_at": "2017-10-31 10:32:00",
-      "updated_at": "2017-10-31 10:32:00"
-    });
+    getDataWithLanguage: PropTypes.func
+    // actions: PropTypes.shape({})
   }
 
   render() {
-    const { todo } = this.props;
+    const { getDataWithLanguage } = this.props
     return (
       <div className='container'>
-        <h1>Hello word</h1>
-        <button onClick={() => this.handleAddTodo()} className="button">addTodo</button>
-        <Link to="/page-2/" className="button">Page 2</Link>
+        <h1>{getDataWithLanguage({ en: 'Hello word!', th: 'สวัสดีชสวโลก' })}</h1>
       </div>
     )
   }
