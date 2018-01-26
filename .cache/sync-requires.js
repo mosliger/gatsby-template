@@ -3,15 +3,12 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": preferDefault(require("C:\\xampp\\htdocs\\gatsby\\.cache\\dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("C:\\xampp\\htdocs\\gatsby\\src\\pages\\404.js")),
   "component---src-pages-index-js": preferDefault(require("C:\\xampp\\htdocs\\gatsby\\src\\pages\\index.js")),
   "component---src-pages-page-2-js": preferDefault(require("C:\\xampp\\htdocs\\gatsby\\src\\pages\\page-2.js"))
 }
 
 exports.json = {
-  "layout-index.json": require("C:\\xampp\\htdocs\\gatsby\\.cache\\json\\layout-index.json"),
-  "dev-404-page.json": require("C:\\xampp\\htdocs\\gatsby\\.cache\\json\\dev-404-page.json"),
   "layout-index.json": require("C:\\xampp\\htdocs\\gatsby\\.cache\\json\\layout-index.json"),
   "404.json": require("C:\\xampp\\htdocs\\gatsby\\.cache\\json\\404.json"),
   "layout-index.json": require("C:\\xampp\\htdocs\\gatsby\\.cache\\json\\layout-index.json"),

@@ -32,10 +32,9 @@ export default class Header extends React.Component {
 
   render() {
     const { getDataWithLanguage, languages, language } = this.props
-    console.log('switchLanguage >>', this.props)
     return (
       <header>
-        <div className='container'>
+        <div className='navigation'>
           <div className='logo'>
             <Link to='/'>APP</Link>
           </div>
@@ -44,22 +43,20 @@ export default class Header extends React.Component {
               <li>
                 <Link to='/page-2'>{getDataWithLanguage({ en: 'Page 2', th: 'หน้า 2' })}</Link>
               </li>
-            </ul>
-          </nav>
-          <div className='language'>
-            <a href='Javascript:;'>Language</a>
-            <ul>
-              {languages.map(value => {
-                return (
-                  <li key={value.key}>
-                    <a href='Javascript:;' className={language === value.key ? 'active' : ''} onClick={() => this.handleSwitchLanguage(value)}>
+              <li className='language'>
+                {languages.map(value => {
+                  return (
+                    <a
+                      href='Javascript:;'
+                      className={language === value.key ? 'active' : ''}
+                      onClick={() => this.handleSwitchLanguage(value)}>
                       {value.fullName}
                     </a>
-                  </li>
-                )
-              })}
+                  )
+                })}
+              </li>
             </ul>
-          </div>
+          </nav>
         </div>
       </header>
     )

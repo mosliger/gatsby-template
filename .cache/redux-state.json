@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "C:/xampp/htdocs/gatsby/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "updatedAt": 1516783142701,
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "C:/xampp/htdocs/gatsby/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5e522a3135169fdb85d3bd55141f0b59",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -509,16 +499,14 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-01-24T08:38:57.020Z",
+      "buildTime": "2018-01-26T06:30:00.129Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9bcabd860cc00c449e6715a7c4a2b05f",
+        "contentDigest": "818eb02ea8ea0a0db7346c199d48bad0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -531,7 +519,7 @@
       "component": "C:/xampp/htdocs/gatsby/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1516783142716,
+      "updatedAt": 1516948203264,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/xampp/htdocs/gatsby/src/pages/404.js",
@@ -540,7 +528,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ae99d0a8ef875ed6462945924748b727",
+        "contentDigest": "4825fdd1cf6e8b2a7324b5a391c6b000",
         "owner": "internal-data-bridge"
       }
     },
@@ -552,7 +540,7 @@
       "component": "C:/xampp/htdocs/gatsby/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1516783142717,
+      "updatedAt": 1516948203265,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/xampp/htdocs/gatsby/src/pages/index.js",
@@ -561,7 +549,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b274b57a9de635089553c96eedf2873f",
+        "contentDigest": "ee0aae2252c2d642a8a96082f76d9d9b",
         "owner": "internal-data-bridge"
       }
     },
@@ -573,7 +561,7 @@
       "component": "C:/xampp/htdocs/gatsby/src/pages/page-2.js",
       "componentChunkName": "component---src-pages-page-2-js",
       "context": {},
-      "updatedAt": 1516783142718,
+      "updatedAt": 1516948203266,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/xampp/htdocs/gatsby/src/pages/page-2.js",
@@ -582,7 +570,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "feb3ce64168410fe3bdf5ef53828422d",
+        "contentDigest": "d7e207e759fa4702c590b85673a3f4c7",
         "owner": "internal-data-bridge"
       }
     },
@@ -594,7 +582,7 @@
       "component": "C:/xampp/htdocs/gatsby/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1516783142721,
+      "updatedAt": 1516948203274,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "C:/xampp/htdocs/gatsby/src/pages/404.js",
@@ -603,7 +591,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4d4baea2a7a9fc36766869306d0f765b",
+        "contentDigest": "1d143e4b8d1445393f1953542df2d59f",
         "owner": "internal-data-bridge"
       }
     }

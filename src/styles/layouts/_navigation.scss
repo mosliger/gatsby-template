@@ -1,0 +1,36 @@
+header {
+  height: 50px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+}
+header .navigation {
+  display: flex;
+  color: #fff;
+  width: 100%;
+  align-items: center;
+  max-width: 1080px;
+  padding: 0 20px;
+  .logo {
+    flex: 0 0 250px
+  }
+  nav {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav ul {
+    @include clesrUl();
+    display: flex;
+    align-items: center;
+  }
+  nav ul li {
+    margin: 0 10px;
+  }
+  .language a {
+    padding: 0 5px;
+  }
+  a {
+    color: #FFF;
+  }
+}

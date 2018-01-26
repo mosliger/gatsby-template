@@ -14,7 +14,7 @@ export default class Home extends React.Component {
     const { getDataWithLanguage } = this.props
     return (
       <div className='container'>
-        <h1>{getDataWithLanguage({ en: 'Hello word!', th: 'สวัสดีชสวโลก' })}</h1>
+        <h1>{getDataWithLanguage({ en: 'Hello word!', th: 'สวัสดีชาวโลก' })}</h1>
       </div>
     )
   }
