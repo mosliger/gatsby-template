@@ -14,7 +14,7 @@ export default class App extends React.Component {
             { name: 'keywords', content: 'sample, something' }
           ]}
         />
-        <Header />
+        <Header {...this.props} />
         <div className='wrap'>{children()}</div>
       </div>
     )

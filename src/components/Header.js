@@ -3,12 +3,13 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 
 import { switchLanguage } from '../actions/actions'
-import { multiLanguage, withRedux } from '../tool'
+import { multiLanguage, withRedux } from '../hoc'
 
 const mapStateToProps = state => {
-  const { language } = state
+  const { language, navigation } = state
   return {
-    languages: language.languages
+    languages: language.languages,
+    mainMenus: navigation.mainMenus
   }
 }
 
@@ -21,7 +22,8 @@ const actions = {
 export default class Header extends React.Component {
   static propTypes = {
     getDataWithLanguage: PropTypes.func,
-    languages: PropTypes.array
+    languages: PropTypes.array,
+    mainMenus: PropTypes.array
     // actions: PropTypes.shape({})
   }
 
@@ -31,22 +33,27 @@ export default class Header extends React.Component {
   }
 
   render() {
-    const { getDataWithLanguage, languages, language } = this.props
+    const { getDataWithLanguage, languages, language, mainMenus } = this.props
     return (
       <header>
         <div className='navigation'>
           <div className='logo'>
-            <Link to='/'>APP</Link>
+            <Link exact activeClassName='logo-active' to='/'>APP</Link>
           </div>
           <nav>
             <ul>
-              <li>
-                <Link to='/page-2'>{getDataWithLanguage({ en: 'Page 2', th: 'หน้า 2' })}</Link>
-              </li>
+              {mainMenus.map((menu, index) => {
+                return (
+                  <li key={index}>
+                    <Link exact activeClassName='active' to={menu.to}>{getDataWithLanguage(menu.name)}</Link>
+                  </li>
+                )
+              })}
               <li className='language'>
-                {languages.map(value => {
+                {languages.map((value, index) => {
                   return (
                     <a
+                      key={index}
                       href='Javascript:;'
                       className={language === value.key ? 'active' : ''}
                       onClick={() => this.handleSwitchLanguage(value)}>

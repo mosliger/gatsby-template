@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "C:/xampp/htdocs/gatsby/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "updatedAt": 1519463040329,
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "C:/xampp/htdocs/gatsby/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "9e9fcd82d4cfbe5f0fc15e3c6d89eab5",
         "owner": "internal-data-bridge"
       }
     },
@@ -347,7 +357,7 @@
       "resolve": "C:/xampp/htdocs/gatsby",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "2d8ce8cc7b2b857fa1cdc08f22ae383c",
+      "version": "8e57e4e942bcd03e38875d9de7bb5a31",
       "pluginOptions": {
         "plugins": []
       },
@@ -393,6 +403,10 @@
             "version": "^5.0.6"
           },
           {
+            "name": "react-transition-group",
+            "version": "^2.2.1"
+          },
+          {
             "name": "redux",
             "version": "^3.7.2"
           },
@@ -415,40 +429,8 @@
             "version": "^6.26.0"
           },
           {
-            "name": "eslint",
-            "version": "^4.7.2"
-          },
-          {
             "name": "babel-eslint",
             "version": "^8.1.1"
-          },
-          {
-            "name": "eslint-config-standard",
-            "version": "^10.2.0"
-          },
-          {
-            "name": "eslint-config-standard-react",
-            "version": "^4.3.0"
-          },
-          {
-            "name": "eslint-plugin-import",
-            "version": "^2.2.0"
-          },
-          {
-            "name": "eslint-plugin-node",
-            "version": "^4.2.2"
-          },
-          {
-            "name": "eslint-plugin-promise",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "eslint-plugin-react",
-            "version": "^6.10.3"
-          },
-          {
-            "name": "eslint-plugin-standard",
-            "version": "^3.0.1"
           },
           {
             "name": "babel-plugin-transform-decorators-legacy",
@@ -479,6 +461,38 @@
             "version": "^6.24.1"
           },
           {
+            "name": "eslint",
+            "version": "^4.7.2"
+          },
+          {
+            "name": "eslint-config-standard",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "eslint-config-standard-react",
+            "version": "^4.3.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "eslint-plugin-node",
+            "version": "^4.2.2"
+          },
+          {
+            "name": "eslint-plugin-promise",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^6.10.3"
+          },
+          {
+            "name": "eslint-plugin-standard",
+            "version": "^3.0.1"
+          },
+          {
             "name": "prettier",
             "version": "^1.8.2"
           }
@@ -490,7 +504,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "af6011ce4cafeedfff45b069bd912673",
+        "contentDigest": "33791e6d9ee5148eb82950ee5e3e94b3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -499,14 +513,14 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2018-01-26T06:30:00.129Z",
+      "port": "8000",
+      "host": "localhost",
+      "buildTime": "2018-02-24T08:46:25.754Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "818eb02ea8ea0a0db7346c199d48bad0",
+        "contentDigest": "97e720042ee452ea5229583c2d8fadea",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -519,7 +533,7 @@
       "component": "C:/xampp/htdocs/gatsby/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1516948203264,
+      "updatedAt": 1519461990127,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/xampp/htdocs/gatsby/src/pages/404.js",
@@ -528,7 +542,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4825fdd1cf6e8b2a7324b5a391c6b000",
+        "contentDigest": "9db4ce3cdae6d3105223552eae4cb221",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /gallery/": {
+      "layout": "index",
+      "jsonName": "gallery.json",
+      "internalComponentName": "ComponentGallery",
+      "path": "/gallery/",
+      "component": "C:/xampp/htdocs/gatsby/src/pages/gallery.js",
+      "componentChunkName": "component---src-pages-gallery-js",
+      "context": {},
+      "updatedAt": 1519461990128,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/xampp/htdocs/gatsby/src/pages/gallery.js",
+      "id": "SitePage /gallery/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5cd9fc91a5244b5c9a474db253659502",
         "owner": "internal-data-bridge"
       }
     },
@@ -540,7 +575,7 @@
       "component": "C:/xampp/htdocs/gatsby/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1516948203265,
+      "updatedAt": 1519461990129,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/xampp/htdocs/gatsby/src/pages/index.js",
@@ -549,7 +584,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ee0aae2252c2d642a8a96082f76d9d9b",
+        "contentDigest": "32ebe639b52940fb207486367803cc7e",
         "owner": "internal-data-bridge"
       }
     },
@@ -561,7 +596,7 @@
       "component": "C:/xampp/htdocs/gatsby/src/pages/page-2.js",
       "componentChunkName": "component---src-pages-page-2-js",
       "context": {},
-      "updatedAt": 1516948203266,
+      "updatedAt": 1519461990130,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/xampp/htdocs/gatsby/src/pages/page-2.js",
@@ -570,7 +605,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d7e207e759fa4702c590b85673a3f4c7",
+        "contentDigest": "3b4cc107edc1ca4f7cae71222d51a9a8",
         "owner": "internal-data-bridge"
       }
     },
@@ -582,7 +617,7 @@
       "component": "C:/xampp/htdocs/gatsby/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1516948203274,
+      "updatedAt": 1519461990133,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "C:/xampp/htdocs/gatsby/src/pages/404.js",
@@ -591,14 +626,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1d143e4b8d1445393f1953542df2d59f",
+        "contentDigest": "9de228cc783f835a1210d59458b8e9ad",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "b73584d7fd878a5ad1ea464136e14750"
+    "PLUGINS_HASH": "52c9802ec5a1fdcdd1418cbfff57aded"
   },
   "componentDataDependencies": {
     "nodes": {},
