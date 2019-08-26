@@ -3,12 +3,11 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 
 import { switchLanguage } from '../actions/actions'
-import { multiLanguage, withRedux } from '../hoc'
+import { withRedux } from '../hoc'
 
 const mapStateToProps = state => {
-  const { language, navigation } = state
+  const { navigation } = state
   return {
-    languages: language.languages,
     mainMenus: navigation.mainMenus
   }
 }
@@ -17,12 +16,9 @@ const actions = {
   switchLanguage
 }
 
-@multiLanguage()
 @withRedux(mapStateToProps, actions)
 export default class Header extends React.Component {
   static propTypes = {
-    getDataWithLanguage: PropTypes.func,
-    languages: PropTypes.array,
     mainMenus: PropTypes.array
     // actions: PropTypes.shape({})
   }
@@ -33,7 +29,7 @@ export default class Header extends React.Component {
   }
 
   render() {
-    const { getDataWithLanguage, languages, language, mainMenus } = this.props
+    const { mainMenus } = this.props
     return (
       <header>
         <div className='navigation'>
@@ -45,23 +41,10 @@ export default class Header extends React.Component {
               {mainMenus.map((menu, index) => {
                 return (
                   <li key={index}>
-                    <Link exact activeClassName='active' to={menu.to}>{getDataWithLanguage(menu.name)}</Link>
+                    <Link exact activeClassName='active' to={menu.to}>{menu.name}</Link>
                   </li>
                 )
               })}
-              <li className='language'>
-                {languages.map((value, index) => {
-                  return (
-                    <a
-                      key={index}
-                      href='Javascript:;'
-                      className={language === value.key ? 'active' : ''}
-                      onClick={() => this.handleSwitchLanguage(value)}>
-                      {value.fullName}
-                    </a>
-                  )
-                })}
-              </li>
             </ul>
           </nav>
         </div>
